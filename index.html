@@ -30,6 +30,7 @@
     </header>
     <main>
         <!--portfolio-->
+      <section>
         <div class="container text-center py-3">
             <h1 class="text-uppercase">portfolio</h1>
         </div>
@@ -40,8 +41,8 @@
                         <img src="img/cabin.png" alt="cabin" class="img-fluid w-100 rounded-top">
                        <div class="h5 text-center fw-bold pt-3">Cabin Website</div>
                        <div>
-                        <button type="button" class="btn btn-info me-3">Preview</button>
-                        <button type="button" class="btn btn-outline-info">Visit</button>
+                        <a href="#" class="btn btn-info me-3">Preview</a>
+                        <a href="#" class="btn btn-outline-info">Visit</a>
                        </div>                    
                     </div>                    
                 </div>
@@ -50,8 +51,8 @@
                         <img src="img/cake.png" alt="cake" class="img-fluid w-100 rounded-top">
                         <div class="h5 text-center fw-bold pt-3">Cake Website</div>
                       <div>
-                        <button type="button" class="btn btn-info me-3">Preview</button> 
-                        <button type="button" class="btn btn-outline-info">Visit</button>
+                        <a href="#" class="btn btn-info me-3">Preview</a> 
+                        <a href="#" class="btn btn-outline-info">Visit</a>
                     </div>                      
                     </div>                   
                 </div>
@@ -60,8 +61,8 @@
                         <img src="img/circus.png" alt="circus" class="img-fluid w-100 rounded-top">
                        <div class="h5 text-center fw-bold pt-3">Circus Website</div>
                        <div>
-                         <button type="button" class="btn btn-info me-3">Preview</button>
-                        <button type="button" class="btn btn-outline-info">Visit</button>
+                         <a href="#" class="btn btn-info me-3">Preview</a>
+                        <a href="#" class="btn btn-outline-info">Visit</a>
                        </div>
                     </div>                    
                 </div>
@@ -101,27 +102,30 @@
             
             </div>               
         </div>
+      </section>
         <!--about me--> 
-        <div class=" my-5 bg-info text-center pt-4">
-            <h1 class="text-uppercase">about</h1>
-            <div class="row ">
-               <div class="col-6">  <!--devo sistemare posizione del testo-->
-                <p class="w-25">
+      <section class="bg-info">
+        <div class="container-fluid my-5 pt-4">
+            <h1 class="text-uppercase text-center">about</h1>
+            <div class="row">
+               <div class="col-4 offset-2">
+                <p>
                     Nulla bibendum nunc a turpis saggitis, nec ornare ligula volutpat
                     Sed mattis malesuada facilisis. Phasellus leo odio, varius eget purus et,
                     tincidunt lacinia lectus. Morbi ut nulla sem
                 </p></div> 
-                <div class="col-6">             
-                <p class=" w-25">
+                <div class="col-4">             
+                <p>
                     Vestibulum consectetur molestie auctor. Morbi finibus est in elit tincidunt
                     semper. Phasellus eu elit eu erat semper fringilla. Nam tincidunt arcu et
                     pharetra aliquet.
                 </p></div>               
-                <div class="pb-4">
+                <div class="pb-4 text-center">
                     <button type="button" class="btn btn-outline-light"> <i class="bi bi-upload"></i> Download</button>
                 </div>         
             </div>             
         </div>
+      </section>
         <!--form contact me -->
         <section id="contact">
         <div class="col">
@@ -165,7 +169,29 @@
     </main>
     <footer> 
         <div class="container-fluid bg-dark">
-             
+            <div class="row text-center text-secondary p-5">
+                <div class="col-6">
+                    <div class="h4 text-uppercase pb-2"> location</div>
+                    <p>2215 John Daniel Drive</p>
+                    <p>Clark, MO 65243</p>
+                </div>
+                <div class="col-6">
+                    <div class="h4 text-uppercase pb-2">around the web</div>
+                    <div class="pt-2">
+                        <a href="#" class="btn btn-outline-secondary"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-outline-secondary"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-secondary"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="btn btn-outline-secondary"><i class="bi bi-instagram"></i></a>                  
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-secondary text-center">
+                    <p>
+                        Copyright &copy; Your website 2021
+                    </p>
+                </div>
+            </div>
         </div>
         
     </footer>
